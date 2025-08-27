@@ -1,11 +1,11 @@
-# 🚀 Automação de API com Playwright
+## 🚀 Automação de API com Playwright
 
 Este projeto implementa automação de testes de API utilizando o Playwright
 , garantindo qualidade, confiabilidade e rastreabilidade nas integrações entre sistemas.
 
 ---
 
-# 📌 Sumário
+## 📌 Sumário
 
 Visão Geral
 
@@ -29,7 +29,7 @@ Licença
 
 ---
 
-# 🔎 Visão Geral
+## 🔎 Visão Geral
 
 O objetivo deste repositório é:
 
@@ -61,17 +61,17 @@ dotenv
 ---
 
 # 📂 Estrutura do Projeto
-📦 api-automation-playwright
-├── 📁 tests           # Casos de teste de API
-│   ├── health.test.ts
-│   ├── users.test.ts
-│   └── ...
-├── 📁 fixtures        # Massa de dados e payloads
-├── 📁 utils           # Funções de suporte (helpers, requests, etc.)
-├── 📁 reports         # Relatórios gerados
-├── playwright.config.ts
-├── package.json
-├── tsconfig.json
+📦 api-automation-playwright  
+├── 📁 tests           # Casos de teste de API  
+│   ├── health.test.ts  
+│   ├── users.test.ts  
+│   └── ...  
+├── 📁 fixtures        # Massa de dados e payloads  
+├── 📁 utils           # Funções de suporte (helpers, requests, etc.)  
+├── 📁 reports         # Relatórios gerados  
+├── playwright.config.ts  
+├── package.json  
+├── tsconfig.json  
 └── .env.example       # Exemplo de variáveis de ambiente
 
 ---
