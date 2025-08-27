@@ -70,20 +70,20 @@ Este projeto implementa automação de testes de API utilizando o Playwright
 ## ⚙️ Instalação
 
 - Clone o repositório:
-'''bash
+
 git clone https://github.com/seu-usuario/api-automation-playwright.git
 cd api-automation-playwright
-'''
+
 
 - Instale as dependências:
-'''bash
+
 npm install
-'''
+
 
 - Configure as variáveis de ambiente:
-'''bash
+
 cp .env.example .env
-'''
+
 
 ---
 
