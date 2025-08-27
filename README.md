@@ -90,11 +90,11 @@ cp .env.example .env
 ## ▶️ Execução dos Testes
 
 - Executar todos os testes:
-- 
+
 npx playwright test
 
 - Executar testes filtrados por tag ou nome:
-- 
+
 npx playwright test -g "users"
 
 ---
@@ -102,9 +102,11 @@ npx playwright test -g "users"
 ## 📊 Relatórios
 
 - Gerar e abrir relatório HTML:
+
 npx playwright show-report
 
 - Se estiver usando Allure:
+
 npm run allure:generate
 npm run allure:open
 
