@@ -23,10 +23,11 @@ Este projeto implementa automação de testes de API utilizando o Playwright
 ## 🔎 Visão Geral
 
 ### O objetivo deste repositório é:  
-Validar endpoints de forma automatizada.  
-Garantir a integridade e confiabilidade das APIs.  
-Fornecer relatórios claros e rastreáveis.  
-Possibilitar fácil integração em pipelines de CI/CD.  
+- Validar endpoints de forma automatizada.  
+- Garantir a integridade e confiabilidade das APIs.  
+- Fornecer relatórios claros e rastreáveis.  
+- Possibilitar fácil integração em pipelines de CI/CD.
+  
 ---
 
 ## 🛠 Tecnologias Utilizadas
@@ -60,56 +61,48 @@ Possibilitar fácil integração em pipelines de CI/CD.
 
 ## ✅ Pré-requisitos
 
-Antes de começar, certifique-se de ter instalado:
-
-Node.js LTS
-
-npm
- ou yarn
+### Antes de começar, certifique-se de ter instalado:
+- Node.js LTS
+- npm ou yarn
 
 ---
 
 ## ⚙️ Instalação
 
-Clone o repositório:
-
+- Clone o repositório:
+'''bash
 git clone https://github.com/seu-usuario/api-automation-playwright.git
 cd api-automation-playwright
+'''
 
-
-Instale as dependências:
-
+- Instale as dependências:
+'''bash
 npm install
+'''
 
-
-Configure as variáveis de ambiente:
-
+- Configure as variáveis de ambiente:
+'''bash
 cp .env.example .env
+'''
 
 ---
 
 ## ▶️ Execução dos Testes
 
-Executar todos os testes:
-
+- Executar todos os testes:
 npx playwright test
 
-
-Executar testes filtrados por tag ou nome:
-
+- Executar testes filtrados por tag ou nome:
 npx playwright test -g "users"
 
 ---
 
 ## 📊 Relatórios
 
-Gerar e abrir relatório HTML:
-
+- Gerar e abrir relatório HTML:
 npx playwright show-report
 
-
-Se estiver usando Allure:
-
+- Se estiver usando Allure:
 npm run allure:generate
 npm run allure:open
 
@@ -117,29 +110,21 @@ npm run allure:open
 
 ## 📌 Boas Práticas
 
-Nomear testes de forma clara e objetiva.
-
-Utilizar fixtures para dados reutilizáveis.
-
-Separar responsabilidades (payloads, requests, asserts).
-
-Sempre validar status code e body da resposta.
-
-Manter as dependências atualizadas.
+- Nomear testes de forma clara e objetiva.  
+- Utilizar fixtures para dados reutilizáveis.  
+- Separar responsabilidades (payloads, requests, asserts).  
+- Sempre validar status code e body da resposta.  
+- Manter as dependências atualizadas.  
 
 ---
 
 ## 🤝 Contribuição
-
-Crie uma branch: git checkout -b minha-feature
-
-Faça commit das alterações: git commit -m 'feat: minha nova feature'
-
-Submeta para revisão: git push origin minha-feature
+- Crie uma branch: git checkout -b minha-feature
+- Faça commit das alterações: git commit -m 'feat: minha nova feature'
+- Submeta para revisão: git push origin minha-feature
 
 ---
 
 ## 📜 Licença
 
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE
- para mais detalhes.
+- Este projeto está sob a licença MIT. Consulte o arquivo LICENSE.
