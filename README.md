@@ -7,60 +7,42 @@ Este projeto implementa automação de testes de API utilizando o Playwright
 
 ## 📌 Sumário
 
-Visão Geral
-
-Tecnologias Utilizadas
-
-Estrutura do Projeto
-
-Pré-requisitos
-
-Instalação
-
-Execução dos Testes
-
-Relatórios
-
-Boas Práticas
-
-Contribuição
-
-Licença
+- Visão Geral
+- Tecnologias Utilizadas
+- Estrutura do Projeto
+- Pré-requisitos
+- Instalação
+- Execução dos Testes
+- Relatórios
+- Boas Práticas
+- Contribuição
+- Licença
 
 ---
 
 ## 🔎 Visão Geral
 
-O objetivo deste repositório é:
-
-Validar endpoints de forma automatizada.
-
-Garantir a integridade e confiabilidade das APIs.
-
-Fornecer relatórios claros e rastreáveis.
-
-Possibilitar fácil integração em pipelines de CI/CD.
-
+### O objetivo deste repositório é:  
+Validar endpoints de forma automatizada.  
+Garantir a integridade e confiabilidade das APIs.  
+Fornecer relatórios claros e rastreáveis.  
+Possibilitar fácil integração em pipelines de CI/CD.  
 ---
 
-# 🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
-Node.js
+- Node.js
  (LTS)
-
-Playwright
-
-TypeScript
-
-Allure Report
+- Playwright
+- TypeScript
+- Allure Report
  (relatórios de execução)
-
-dotenv
+- dotenv
  (configuração de variáveis de ambiente)
 
 ---
 
-# 📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 📦 api-automation-playwright  
 ├── 📁 tests           # Casos de teste de API  
 │   ├── health.test.ts  
@@ -76,7 +58,7 @@ dotenv
 
 ---
 
-# ✅ Pré-requisitos
+## ✅ Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado:
 
@@ -87,7 +69,7 @@ npm
 
 ---
 
-# ⚙️ Instalação
+## ⚙️ Instalação
 
 Clone o repositório:
 
@@ -106,7 +88,7 @@ cp .env.example .env
 
 ---
 
-# ▶️ Execução dos Testes
+## ▶️ Execução dos Testes
 
 Executar todos os testes:
 
@@ -119,7 +101,7 @@ npx playwright test -g "users"
 
 ---
 
-# 📊 Relatórios
+## 📊 Relatórios
 
 Gerar e abrir relatório HTML:
 
@@ -133,7 +115,7 @@ npm run allure:open
 
 ---
 
-# 📌 Boas Práticas
+## 📌 Boas Práticas
 
 Nomear testes de forma clara e objetiva.
 
@@ -147,7 +129,7 @@ Manter as dependências atualizadas.
 
 ---
 
-# 🤝 Contribuição
+## 🤝 Contribuição
 
 Crie uma branch: git checkout -b minha-feature
 
@@ -157,7 +139,7 @@ Submeta para revisão: git push origin minha-feature
 
 ---
 
-# 📜 Licença
+## 📜 Licença
 
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE
  para mais detalhes.
