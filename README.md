@@ -90,9 +90,11 @@ cp .env.example .env
 ## ▶️ Execução dos Testes
 
 - Executar todos os testes:
+- 
 npx playwright test
 
 - Executar testes filtrados por tag ou nome:
+- 
 npx playwright test -g "users"
 
 ---
