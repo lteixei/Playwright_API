@@ -1,10 +1,12 @@
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
-  testDir: './tests', // <- Certifique-se que aponta para a pasta onde estão os testes
-  timeout: 30 * 1000,
-  retries: 0,
+  testDir: './tests', // seu diretório de testes
+  reporter: [
+    ['list'], // reporter padrão no console
+    ['allure-playwright'] // gera allure-results
+  ],
   use: {
-    baseURL: 'https://automationexercise.com/api',
+    // configurações gerais, se necessário
   },
 });
